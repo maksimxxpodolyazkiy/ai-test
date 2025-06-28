@@ -1,0 +1,62 @@
+.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+.userTable {
+  width: 900px;
+  border-collapse: collapse;
+  background: var(--color-background-soft);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-radius: 12px;
+  overflow: hidden;
+}
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+th {
+  background: var(--color-background-mute);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.userRow {
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.userRow:hover {
+  background: var(--color-background-mute);
+}
+.name {
+  font-weight: 500;
+}
+.email {
+  color: var(--color-text-light-2);
+  font-size: 0.95em;
+}
+.deleteBtn {
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.deleteBtn:hover {
+  background: #d9363e;
+}
+.tableCloseBtn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--color-text-light-2);
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+.tableCloseBtn:hover {
+  color: #ff4d4f;
+} 
